@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    grid-
+}
+
+ul.redes li {
+    list-style: none;
+    display: inline-block;
+    padding: 0.2em;
+}
+
+.boton1 {
+    display: inline;
+    border-radius: 8px;
+    border: 2px solid orange;
+    color: orange;
+}
+
+i .re{
+    color: #7f888f;
+}
+
+.erat {
+    
+}
+.ico{
+    color: #f56a6a
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #7f888f
+}
+
+.boton1:hover {
+    color: #ebe838;
+    border: 2px solid #ebe838;
+}
+h1 {
+    font-family: sans-serif;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    border-radius: 1em;
+}
+
+.divi  {
+    background-color: #f56a6a;
+    height: 0.2em;;
+}
+
+body{
+    padding: 10px 100px;
+}
