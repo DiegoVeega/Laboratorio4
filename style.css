@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    grid-
+    border-bottom: 5px solid #f56a6a;
 }
 
 ul.redes li {
@@ -11,10 +11,11 @@ ul.redes li {
 }
 
 .boton1 {
-    display: inline;
+    display: inline-block;
     border-radius: 8px;
     border: 2px solid orange;
     color: orange;
+    padding: 1.2em;
 }
 
 i .re{
@@ -25,7 +26,9 @@ i .re{
     
 }
 .ico{
-    color: #f56a6a
+    color: #f56a6a;
+    width: 10em;
+    height: 10em;
 }
 p {
     font-family: 'Roboto', sans-serif;
@@ -49,11 +52,35 @@ img {
     border-radius: 1em;
 }
 
-.divi  {
-    background-color: #f56a6a;
-    height: 0.2em;;
-}
-
 body{
     padding: 10px 100px;
+}
+
+.art {
+    margin: 50px;
+}
+
+h3{
+    padding: 0.2em;
+    margin: 1em 0em;
+    display: inline-block;
+    border-bottom: 5px solid #f56a6a;
+}
+
+.erat {
+    display: flex;
+    flex-direction: row;
+}
+
+.diviE {
+    display: flex;
+}
+
+.diviE i {
+    display: flex;
+    align-items: center
+}
+
+#titulo {
+    font-size: 2em; 
 }
